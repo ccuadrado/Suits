@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  address: MyString
+  address_line_two: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  height: 1
+  weight: 1
+  chest: 1
+  arms: 1
+  bust: 1
+  waist: 1
+  hips: 1
+  inseam: 1
+  outseam: 1
+  arm_circumference: 1
+  leg_circumference: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  address: MyString
+  address_line_two: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  height: 1
+  weight: 1
+  chest: 1
+  arms: 1
+  bust: 1
+  waist: 1
+  hips: 1
+  inseam: 1
+  outseam: 1
+  arm_circumference: 1
+  leg_circumference: 1
