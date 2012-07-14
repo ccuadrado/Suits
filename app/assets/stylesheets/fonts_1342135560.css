@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/css/fonts/proxima-nova.eot');
+    src: url('/css/fonts/proxima-nova.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/proxima-nova.woff') format('woff'),
+         url('http://www.indochino.com/css/fonts/proxima-nova.woff') format('woff'),
+         url('/css/fonts/proxima-nova.ttf') format('truetype'),
+         url('/css/fonts/proxima-nova.svg#ProximaNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('/css/fonts/proxima-nova-bold.eot');
+    src: url('/css/fonts/proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/proxima-nova-bold.woff') format('woff'),
+         url('http://www.indochino.com/css/fonts/proxima-nova-bold.woff') format('woff'),
+         url('/css/fonts/proxima-nova-bold.ttf') format('truetype'),
+         url('/css/fonts/proxima-nova-bold.svg#ProximaNovaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('/css/fonts/proxima-nova-semi-bold.eot');
+    src: url('/css/fonts/proxima-nova-semi-bold.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/proxima-nova-semi-bold.woff') format('woff'),
+         url('http://www.indochino.com/css/fonts/proxima-nova-semi-bold.woff') format('woff'),
+         url('/css/fonts/proxima-nova-semi-bold.ttf') format('truetype'),
+         url('/css/fonts/proxima-nova-semi-bold.svg#ProximaNovaSemiBold') format('svg');
+    font-weight:bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaBlack';
+    src: url('/css/fonts/proxima-nova-black.eot');
+    src: url('/css/fonts/proxima-nova-black.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/proxima-nova-black.woff') format('woff'),
+         url('http://www.indochino.com/css/fonts/proxima-nova-black.woff') format('woff'),
+         url('/css/fonts/proxima-nova-black.ttf') format('truetype'),
+         url('/css/fonts/proxima-nova-black.svg#ProximaNovaBlack') format('svg');
+    font-weight:bold;
+    font-style:normal;
+}

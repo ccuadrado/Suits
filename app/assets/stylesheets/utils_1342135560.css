@@ -1,0 +1,135 @@
+/*
+* Contains all of the styles for the Utility modules
+* @author Preet Jassi
+* @file utils.css
+*/
+
+#screen-mask {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:#000;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    display:none;
+}
+
+#image-gallery-container {
+    position:absolute;
+    display:none;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    z-index:1001;
+}
+
+#image-gallery {
+    position:absolute;
+    margin:0;
+    padding:0;
+}
+
+#image-gallery li {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.gallery-arrow {
+	position: absolute;
+	top: 325px;
+	cursor: pointer;
+    width:88px;
+    height:88px;
+	background:url(/images/collection/btn_sprite.png) no-repeat 0 0;
+}
+
+.gallery-arrow-prev {
+	left: 175px;
+	display: none;
+	background-position:0 -264px;
+}
+
+.gallery-arrow-prev:hover {
+    background-position:0 -88px;
+}
+
+.gallery-arrow-next {
+	right: 175px;
+	background-position:0 -352px;
+}
+
+.gallery-arrow-next:hover {
+    background-position:0 -176px;
+}
+
+.gallery-arrow-close {
+    width:44px;
+    height:44px;
+    top:0;
+    border:0; 
+    background-position:0 -44px;
+}
+
+.gallery-arrow-close:hover {
+    background-position:0 0;
+}
+
+/* individual dialog styles */
+
+.free-shipping-dialog .bd {
+    background-image:url(/images/dialog/shipping_box.png);
+    background-repeat:no-repeat;
+    background-position:center right;
+    padding-right:340px;
+}
+
+.free-shipping-dialog .bd p {
+    width:300px;
+}
+
+.our-promise-dialog .promise-columns {
+    margin-top:50px;
+    margin-left:-20px;
+}
+
+.our-promise-dialog .col-13 {
+    float:left;
+    display:inline;
+    margin-left:20px;
+    width:185px;
+    height:140px;
+}
+
+.our-promise-dialog .col-13 h4 {
+    margin-bottom:0em;
+}
+
+.our-promise-dialog .col-13 p {
+    margin-top:0.5em;
+}
+
+.custom-tailored-dialog {
+    background-image:url(/images/dialog/custom.jpg);
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.custom-tailored-dialog .bd {
+    padding-left:370px;
+    height:236px;
+    width:250px;
+}
+
+.custom-tailored-dialog .bd p {
+    width:250px;
+}
+
+.custom-tailored-dialog .bd a {
+    color:#29ABE2;
+    text-decoration:none;
+}
+
