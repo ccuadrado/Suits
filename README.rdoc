@@ -8,7 +8,7 @@ cd to the directory
 type in
 
     $ bundle install
-
+    $ rake db:migrate
 then 
 
     $ rails s
